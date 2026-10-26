@@ -2,12 +2,10 @@
 
 [![License BSD-3](https://img.shields.io/pypi/l/napari-nord.svg?color=green)](https://github.com/domjurkschat/napari-nord/raw/main/LICENSE)
 [![PyPI](https://img.shields.io/pypi/v/napari-nord.svg?color=green)](https://pypi.org/project/napari-nord)
-[![Python Version](https://img.shields.io/pypi/pyversions/napari-nord.svg?color=green)](https://python.org)
-[![tests](https://github.com/domjurkschat/napari-nord/actions/workflows/test_and_deploy.yml/badge.svg)](https://github.com/domjurkschat/napari-nord/actions)
 [![napari hub](https://img.shields.io/endpoint?url=https://api.napari-hub.org/shields/napari-nord)](https://napari-hub.org/plugins/napari-nord)
 [![npe2](https://img.shields.io/badge/plugin-npe2-blue?link=https://napari.org/stable/plugins/index.html)](https://napari.org/stable/plugins/index.html)
 
-The [Nord](https://www.nordtheme.com) palette as [napari](https://napari.org) themes: Nord (dark) and Nord Light.
+The [Nord](https://www.nordtheme.com) palette as [napari](https://napari.org) themes (dark and light).
 
 ## Installation
 
