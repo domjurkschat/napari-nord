@@ -1,0 +1,46 @@
+name: napari-nord
+display_name: Nord
+# Roles follow the Nord docs: nord0 = area colouring (canvas, console),
+# nord1 = elevated panels, nord2-3 = UI elements, nord6 = plain text,
+# nord4 = icons, nord8 = primary accent, nord13 = warning, nord11 = error.
+# napari needs two widget shades above nord3, so secondary and highlight are
+# nord3 blended 10% and 15% toward nord4; current is nord8 25% over nord1.
+# All keep nord6 text at 4.5:1 or better.
+contributions:
+  themes:
+    - id: nord
+      label: Nord
+      type: dark
+      colors:
+        canvas: "#2e3440"
+        console: "#2e3440"
+        background: "#3b4252"
+        foreground: "#434c5e"
+        primary: "#4c566a"
+        secondary: "#5a6477"
+        highlight: "#616a7d"
+        text: "#eceff4"
+        icon: "#d8dee9"
+        warning: "#ebcb8b"
+        error: "#bf616a"
+        current: "#4e6272"
+    # Bright ambiance: nord6 = area colouring, nord4 = elevated panels,
+    # nord0 = plain text, nord1 = icons. Widget shades are nord4 blended
+    # 15/25/35/30% toward nord3 to mirror napari's light theme ladder;
+    # current is nord8 50% over nord4. All keep nord0 text at 5.6:1 or better.
+    - id: nord_light
+      label: Nord Light
+      type: light
+      colors:
+        canvas: "#eceff4"
+        console: "#eceff4"
+        background: "#d8dee9"
+        foreground: "#c3cad6"
+        primary: "#b5bcc9"
+        secondary: "#a7aebd"
+        highlight: "#aeb5c3"
+        text: "#2e3440"
+        icon: "#3b4252"
+        warning: "#ebcb8b"
+        error: "#bf616a"
+        current: "#b0cfdc"

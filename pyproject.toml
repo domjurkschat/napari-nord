@@ -1,0 +1,33 @@
+[project]
+name = "napari-nord"
+version = "0.1.0"
+description = "Nord themes (dark and light) for napari."
+readme = "README.md"
+license = "BSD-3-Clause"
+license-files = ["LICENSE"]
+authors = [{name = "Dominic Jurkschat", email = "dom.jurkschat@monash.edu"}]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Framework :: napari",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+all = ["napari[all]"]
+
+[project.entry-points."napari.manifest"]
+napari-nord = "napari_nord:napari.yaml"
+
+[project.urls]
+"Bug Tracker" = "https://github.com/domjurkschat/napari-nord/issues"
+"Source Code" = "https://github.com/domjurkschat/napari-nord"
+
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
+napari_nord = ["napari.yaml"]
